@@ -74,18 +74,46 @@
      <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\WheelEffects.cs" />
      <Compile Include="Assets\Cartoon SportCar B01\script\OpenElement.cs" />
      <Compile Include="Assets\Cartoon SportCar B01\script\brake_light.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\script\car_controller.cs" />
      <Compile Include="Assets\Cartoon SportCar B01\script\on_off_light.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCCamManager.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCCarChange.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCChildFixedCam.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCCockpit_Camera.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCMainFixedCam.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCReset_Scene.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCWheel_Camera.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Enter-Exit\RCCEnterExitCamera.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Enter-Exit\RCCEnterExitCar.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\For NGUI\RCCNGUIController.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCCameraOrbit.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCCarCamera.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCCarCameraConfig.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCCarControllerV2.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCDashboardInputs.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCSkidmarks.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCUIController.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCUIDashboardDisplay.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCWheelSkidmarks.cs" />
+     <None Include="Assets\RealisticCarControllerV2\Scripts\RCCSkidmarks.shader" />
      <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\DepthOfFieldScatter.shader" />
      <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\DepthOfFieldDX11.shader" />
      <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\ChromaticAberrationShader.shader" />
      <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\SeparableBlur.shader" />
      <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\VignettingShader.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>D:/unity3d/driving_simulator/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>F:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{14A39176-6FF1-5C75-0DAF-9D8E967F289A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
