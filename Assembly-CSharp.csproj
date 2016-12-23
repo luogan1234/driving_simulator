@@ -45,36 +45,75 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ZRNAssets\005339_08932_25_14\Scripts\AmbientController.cs" />
-     <Compile Include="Assets\ZRNAssets\005339_08932_25_14\Scripts\CameraController.cs" />
-     <Compile Include="Assets\ZRNAssets\005339_08932_25_14\Scripts\FlyThroughController.cs" />
-     <Compile Include="Assets\ZRNAssets\005339_08932_25_14\Scripts\MoveCamera.cs" />
-     <Compile Include="Assets\ZRNAssets\005339_08932_25_14\Scripts\Util\SetFPS.cs" />
-     <Compile Include="Assets\ZRNAssets\005339_08932_25_14\Scripts\Util\ViewFPS.cs" />
-     <Compile Include="Assets\ZRNAssets\005339_08932_25_14\Scripts\ZRNGUIController.cs" />
-     <Compile Include="Assets\ZRNAssets\Cars\Scripts\AICarMove.cs" />
-     <Compile Include="Assets\ZRNAssets\PQAssets\Query-Chan\Scripts\CameraAction.cs" />
-     <Compile Include="Assets\ZRNAssets\PQAssets\Query-Chan\Scripts\GUIController.cs" />
-     <Compile Include="Assets\ZRNAssets\PQAssets\Query-Chan\Scripts\GUIControllerFlying.cs" />
-     <Compile Include="Assets\ZRNAssets\PQAssets\Query-Chan\Scripts\QueryAnimationController.cs" />
-     <Compile Include="Assets\ZRNAssets\PQAssets\Query-Chan\Scripts\QueryEmotionalController.cs" />
-     <Compile Include="Assets\ZRNAssets\PQAssets\Query-Chan\Scripts\QuerySoundController.cs" />
-     <None Include="Assets\ZRNAssets\license_en.txt" />
-     <None Include="Assets\ZRNAssets\PQAssets\Query-Chan\Shaders\PQ_Skin.shader" />
-     <None Include="Assets\ZRNAssets\license_jp.txt" />
-     <None Include="Assets\ZRNAssets\Skyboxes\_skybox info.txt" />
-     <None Include="Assets\ZRNAssets\005339_08932_25_14\Shaders\su_Double_and_Clip.shader" />
-     <None Include="Assets\ZRNAssets\PQAssets\license_jp.txt" />
-     <None Include="Assets\ZRNAssets\PQAssets\Query-Chan\Shaders\PQ_TransBlue.shader" />
-     <None Include="Assets\ZRNAssets\005339_08932_25_14\Shaders\su_VertexCol_1UV_Single.shader" />
-     <None Include="Assets\ZRNAssets\PQAssets\license_en.txt" />
-     <None Include="Assets\ZRNAssets\005339_08932_25_14\Documents\ReadMe.txt" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\AbstractTargetFollower.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\AutoCam.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CameraSwitch.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarAudio.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarController.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarUserControl.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\DepthOfField.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\FreeLookCam.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\PivotBasedCameraRig.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\PostEffectsBase.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\ProtectCameraFromWallClip.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SkidTrail.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\WheelEffects.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\script\OpenElement.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\script\brake_light.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\script\car_controller.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\script\on_off_light.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCCamManager.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCCarChange.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCChildFixedCam.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCCockpit_Camera.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCMainFixedCam.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCReset_Scene.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCWheel_Camera.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Enter-Exit\RCCEnterExitCamera.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Enter-Exit\RCCEnterExitCar.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\For NGUI\RCCNGUIController.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCCameraOrbit.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCCarCamera.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCCarCameraConfig.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCCarControllerV2.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCDashboardInputs.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCSkidmarks.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCUIController.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCUIDashboardDisplay.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCWheelSkidmarks.cs" />
+     <None Include="Assets\RealisticCarControllerV2\Scripts\RCCSkidmarks.shader" />
+     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\SeparableBlur.shader" />
+     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\VignettingShader.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>D:/unity3d/driving_simulator/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>F:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{14A39176-6FF1-5C75-0DAF-9D8E967F289A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
